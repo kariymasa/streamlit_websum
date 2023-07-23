@@ -5,3 +5,4 @@ langchainplus-sdk==0.0.20
 requests==2.29.0
 urllib3==1.26.16
 beautifulsoup4==4.12.2
+openai==0.27.4
