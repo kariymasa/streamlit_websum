@@ -12,6 +12,8 @@ import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
 
+OPENAI_API_KEY = st.secrets.OpenAIAPI.OPENAI_API_KEY
+
 def init_page():
     st.set_page_config(
         page_title="Website Summarizer",
