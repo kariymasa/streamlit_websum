@@ -1,0 +1,7 @@
+streamlit==1.24.1
+streamlit-chat==0.1.1
+langchain==0.0.225
+langchainplus-sdk==0.0.20
+requests==2.29.0
+urllib3==1.26.16
+beautifulsoup4==4.12.2
