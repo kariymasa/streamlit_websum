@@ -13,7 +13,8 @@ import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
 
-OPENAI_API_KEY = st.secrets.OpenAIAPI.OPENAI_API_KEY
+openai.api_key = st.secrets.OpenAIAPI.OPENAI_API_KEY
+OPENAI_API_KEY = openai.api_key
 
 def init_page():
     st.set_page_config(
